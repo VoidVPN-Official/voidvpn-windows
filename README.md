@@ -9,17 +9,17 @@
 | Платформа | Статус | Получить приложение |
 | --- | --- | --- |
 | Windows 10/11 x64 | Доступна beta-версия 0.4.15 | [Последний релиз](https://github.com/dikem43212-oss/voidvpn-windows/releases/latest) |
-| Android 8.0+ | Beta 0.2.1 для проверки на телефоне | [Скачать APK](https://github.com/dikem43212-oss/voidvpn-windows/releases/download/android-v0.2.1/VoidVPN-Android-TV-0.2.1-beta.apk) |
-| Android TV 8.0+ | Тот же APK: управление с пульта и QR; проверка на телевизоре ещё нужна | [Android / TV релиз](https://github.com/dikem43212-oss/voidvpn-windows/releases/tag/android-v0.2.1) |
+| Android 8.0+ | Beta 0.2.2 для проверки на телефоне | [Скачать APK](https://github.com/dikem43212-oss/voidvpn-windows/releases/download/android-v0.2.2/VoidVPN-Android-TV-0.2.2-beta.apk) |
+| Android TV 8.0+ | Тот же APK: управление с пульта и QR; проверка на телевизоре ещё нужна | [Android / TV релиз](https://github.com/dikem43212-oss/voidvpn-windows/releases/tag/android-v0.2.2) |
 | iPhone / iPad | Разрабатывается приложение; сборка и TestFlight ещё не выполнены | Пока не опубликовано |
 
 Приложений VoidVPN в Google Play и App Store пока нет. Ссылки на магазины появятся здесь после публикации. Android использует общий Telegram-аккаунт и стиль приложения для Windows. Версия для iOS ещё разрабатывается.
 
 ## Скачать для Android и Android TV
 
-[Скачать APK 0.2.1-beta](https://github.com/dikem43212-oss/voidvpn-windows/releases/download/android-v0.2.1/VoidVPN-Android-TV-0.2.1-beta.apk) · [Описание релиза и контрольные суммы](https://github.com/dikem43212-oss/voidvpn-windows/releases/tag/android-v0.2.1)
+[Скачать APK 0.2.2-beta](https://github.com/dikem43212-oss/voidvpn-windows/releases/download/android-v0.2.2/VoidVPN-Android-TV-0.2.2-beta.apk) · [Описание релиза и контрольные суммы](https://github.com/dikem43212-oss/voidvpn-windows/releases/tag/android-v0.2.2)
 
-Для Android 8.0 и новее, ARM32 / ARM64 / x86-64. APK около 47 МБ. В 0.2.1 исправлены отключение и переключение двух режимов. Кнопки VPN находятся вверху, IP и слоган — ниже; логотип совпадает с Windows. Сборка, подпись, маршрутизация и интерфейс проверены автоматически; обновлённое подключение на настоящем телефоне и телевизоре ещё нужно проверить.
+Для Android 8.0 и новее, ARM32 / ARM64 / x86-64. APK около 47 МБ. В 0.2.2 исправлено зависание при отключении и повторном подключении: VPN работает в отдельном процессе, остановка ограничена пятью секундами. Кнопки VPN находятся вверху, IP и слоган — ниже; логотип теперь векторный и чёткий. Пройдены 29 Android-тестов, тесты ядра и проверки подписанной сборки. Обновлённое подключение на настоящем телефоне и телевизоре ещё нужно проверить.
 
 1. Скачайте APK с этой страницы и установите. Android может попросить разрешить установку из браузера.
 2. Откройте VoidVPN. При первом входе выберите «Войти через Telegram / QR» и подтвердите вход в боте. На телефоне нажмите «Открыть Telegram»; на ТВ отсканируйте QR-код телефоном. После привязки устройства станет доступен вход по четырём цифрам: код приходит сразу в бот.
